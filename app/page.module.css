@@ -53,6 +53,10 @@
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
 }
+.titleLivewell{
+  color: #000;
+  font-size: 90px;
+}
 
 .card span {
   display: inline-block;

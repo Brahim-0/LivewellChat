@@ -1,0 +1,4 @@
+-- Constarint to make sure there is only conversatino associated with 2 users.
+ALTER TABLE conversations
+ADD CONSTRAINT uq_conversations_user_ids2 
+CHECK (user_id1 < user_id2);
